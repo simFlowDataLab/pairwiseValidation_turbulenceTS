@@ -33,7 +33,7 @@ print(f">>> Rank {rank} of {size} started.", flush=True)
 # -----SETTINGS -------------------------------------------------------------------
 #
 ## Path to the channel flow time series data
-dataPath = './data/flow_database/turbulenceTimeseries/chan300_1/data/'
+dataPath = './data/chan300/'
 
 ## Data extraction: selection of time series for measuring their interactions
 #iLocList = [10,40]          # list of indices of wall-normal points, 0: wall, 63: channel centre
