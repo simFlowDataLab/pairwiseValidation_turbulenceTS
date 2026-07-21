@@ -11,10 +11,11 @@ Pairwise Interactions in Simulated and VAR-Synthetic Turbulence Time Series
 * `matplotlib`
 
 ## Data
-Time series data of the turbulent channel flow at friction-based Reynolds number of 300 are available in [this link](https://github.com/simFlowDataLab/flow_database/tree/main/turbulenceTimeseries/chan300_1)
+Time series data of the turbulent channel flow at friction-based Reynolds number of 300 are available in `./data/chan300/`.
 
 * The data includes `u`, the time series of the streamwise velocity averaged over the wall-parallel directions at probes located at different wall-normal coordinates `y`. The sampling times are in `t`. 
 * There are, in total, 104377 time samples available. 
+* $\Delta t = 0.008$ -- normalized by $\delta/U_b$ where $\delta$ is the channel half-height.
 * There are 64 sampling points (with the wall located at $y=0$ and channel centerline at $y=1$). 
 
 
